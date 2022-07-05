@@ -29,7 +29,7 @@ function addGS(){
       },
       redirect: 'follow', // manual, *follow, error
       //referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-      body: JSON.stringify({name:"lomo"}) // body data type must match "Content-Type" header
+      body: JSON.stringify({"first:"Monoic","phone:"620-960-9347","last:"Zapata"}) // body data type must match "Content-Type" header
     });
     
    
