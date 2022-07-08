@@ -1,7 +1,7 @@
 function testGS(){
 
 
-     const url = "https://script.google.com/macros/s/AKfycby7bTB-8EUMorSoMHXJpjpmTZ2GyIocX3EviDAJGrhNGHeiBamcFU_SEqRoV3eH5fq90A/exec"
+     const url = "https://script.google.com/macros/s/AKfycby7bTB-8EUMorSoMHXJpjpmTZ2GyIocX3EviDAJGrhNGHeiBamcFU_SEqRoV3eH5fq90A/exec";
      fetch(url)
         .then(d => d.json())
         .then(d => {
