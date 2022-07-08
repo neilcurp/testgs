@@ -1,7 +1,7 @@
 function testGS(){
 
 
-     const url = "https://script.google.com/macros/s/AKfycbwEwWG_SoRc-p7e8cBge5OiZoQmCmDdrh4WN-FTzKcDPVudF-YbZpzNdcXCfIrWlPi6Zw/exec";
+     const url = "https://script.google.com/macros/s/AKfycbx0E28AAwBAhtoDit8yXMDko6cIfPqGqAT0bo-1ba_EoEKhnM7sdBNh8XGeYj5xnAhDDg/exec";
      fetch(url)
         .then(d => d.json())
         .then(d => {
@@ -15,7 +15,7 @@ document.getElementById("btn").addEventListener("click",testGS);
 function addGS(){
 
 
-   const url = "https://script.google.com/macros/s/AKfycbwEwWG_SoRc-p7e8cBge5OiZoQmCmDdrh4WN-FTzKcDPVudF-YbZpzNdcXCfIrWlPi6Zw/exec";
+   const url = "https://script.google.com/macros/s/AKfycbx0E28AAwBAhtoDit8yXMDko6cIfPqGqAT0bo-1ba_EoEKhnM7sdBNh8XGeYj5xnAhDDg/exec";
    fetch(url,{
       method: 'POST', // *GET, POST, PUT, DELETE, etc.
       mode: 'no-cors', // no-cors, *cors, same-origin
